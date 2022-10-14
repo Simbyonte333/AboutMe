@@ -6,7 +6,8 @@
     
 }
 body{
-    background-color: rgb(55, 4, 104);
+    background: url(https://t3.ftcdn.net/jpg/03/36/00/98/360_F_336009887_yI4fLOqWbm8rNLCCIgmCuR3XY1caADIy.jpg);
+    background-size: 100%;
     font-family: 'Secular One', sans-serif;
 }
 
@@ -46,5 +47,34 @@ nav ul li a{
     transition: all 0.3s ease;
 }
 nav ul li a:hover{
-    background-color: rgb(136, 36, 136);
+    background-color: rgb(55, 4, 104);
+}
+
+section .block{
+    background-color: black;
+    opacity: 0.8;
+    width: 500px;
+    height: 400px;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+section h1{
+    color: white;
+    text-align: center;
+    
+}
+section p{
+    text-align: left;
+    margin-left: 18px;
+    color: white;
+    font-size: 15px;
+}
+
+section i{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
